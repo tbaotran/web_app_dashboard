@@ -42,6 +42,10 @@ header {
 	display: inline-block;
 }
 
+#alert {
+	margin-bottom: -10px;
+}
+
 /* ---- Navigation ---- */
 
 .main-header {
@@ -50,15 +54,25 @@ header {
 	justify-content: space-between;
 }
 
+.flex {
+	display: flex;
+	flex-direction: row;
+}
+
+.nav {
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: #4d4c72;
+	list-style: none;
+}
+
 .nav a {
-	display: block;
 	text-align: left;
 	padding: .4em;
 }
 
-nav {
-	background-color: #4d4c72;
-	list-style: none;
+.nav li {
+	padding:  30px;
 }
 
 .sr-only {
