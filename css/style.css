@@ -47,13 +47,18 @@ header {
 	display: inline-block;
 }
 
-#alert {
-	margin-bottom: -10px;
+#alert-dot {
+	height: 8px;
+	width: 8px;
+	position: relative;
+	top: -16px;
+	right: 5px;
 }
 
 .profile-photo {
     border-radius: 50%;
     margin: -10px;
+    margin-left: 5px;
     width: 30px;
     height: 30px;
     align-self: center;
@@ -65,6 +70,7 @@ header {
 
 #alert {
 	cursor: pointer;
+	margin-bottom: -10px;
 }
 
 /* ---- Navigation ---- */
@@ -106,8 +112,8 @@ header {
 }
 
 img {
-	width: 30px;
-	height: 30px;
+	width: 25px;
+	height: 25px;
 }
 
 /* ---- Layout Containers ---- */
