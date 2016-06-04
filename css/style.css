@@ -44,6 +44,7 @@ header {
 
 .title, .name {
 	margin: 0;
+	margin-left: 5px;
 	display: inline-block;
 }
 
@@ -51,8 +52,8 @@ header {
 	height: 8px;
 	width: 8px;
 	position: relative;
-	top: -16px;
-	right: 5px;
+	top: -12px;
+	right: 8px;
 }
 
 .profile-photo {
